@@ -33,7 +33,11 @@ with st.sidebar:
 
 
 def main():
-    pass
+    st.title("Welcome to Chat PDF")
+
+    # upload pdf file
+    pdf = st.file_uploader("Upload your pdf here", type="pdf")
+    
 
 if __name__ == "__main__":
     main()
