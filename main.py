@@ -38,6 +38,8 @@ def main():
     # upload pdf file
     pdf = st.file_uploader("Upload your pdf here", type="pdf")
     
+    if pdf is not None:
+        pass
 
 if __name__ == "__main__":
     main()
